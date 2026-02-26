@@ -593,7 +593,7 @@ body{
     padding: 100px 0px 0px 0px;
     background-image: url(../../assets/imgs/footer.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -675,7 +675,7 @@ body{
     font-family: "Cormorant Garamond", serif;
     font-weight: 400;
     font-style: Italic;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 0;
     color: #2B2B2B;
@@ -1384,13 +1384,75 @@ body{
     max-width: fit-content;
     margin: auto;
 }
-
-
-
-
-
-
-
+.privacy_text1{
+    text-align: center;
+    margin-top: 60px;
+}
+.privacy_text1 h4{
+    font-weight: 400;
+    font-size: 24px;
+    color: #C1871F;
+}
+.privacy_text1 p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B2B2B;
+    margin-top: 20px;
+}
+.privacy_text1 p a{
+    font-weight: 500;
+    font-size: 18px;
+    color: #C1871F;
+}
+.privacy_text_main_div{
+    margin-top: 50px;
+}
+.privacy_text_main_div h3{
+    font-weight: 600;
+    font-size: 24px;
+    color: #2B2B2B;
+    margin-top: 30px;
+}
+.privacy_text_main_div p{
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B2B2B;
+    text-align: justify;
+}
+.privacy_text_main_div p b{
+    line-height: 24px;
+    font-weight: 700;
+}
+.privacy_text_main_div a{
+    font-weight: 500;
+    font-size: 18px;
+    color: #D4AF37;
+}
+.privacy_text_main_div ul li{
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B2B2B;
+    margin-bottom: 12px;
+    text-align: justify;
+    list-style: disc;
+}
+.privacy_text_main_div ul li b{
+    font-weight: 700;
+}
+.privacy_text_main_div h6{
+    font-weight: 600;
+    font-size: 20px;
+    color: #2B2B2B;
+    text-align: justify;
+    margin-top: 30px;
+}
+.footer_last_text2{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    flex-wrap: wrap;
+}
 
 
 
@@ -1445,6 +1507,7 @@ body{
     .footer_section {
         margin-top: 60px;
         padding: 50px 0px 0px 0px;
+        background-position: center;
     }
     .cont_sec2_card_body_div {
         background-color: #F6F1EA;
